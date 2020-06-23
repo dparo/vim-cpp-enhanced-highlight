@@ -53,7 +53,7 @@ endif
 
 
 syn match cType "\<\w*_t\>"
-syn match cType "\<[A-Z]\w*\>"
+syn match cType "\<[A-Z][A-Z_0-9]*[a-z_0-9]\+\w*\>"
 
 " Common ANSI-standard functions
 syn keyword cAnsiFunction	MULU_ DIVU_ MODU_ MUL_ DIV_ MOD_
