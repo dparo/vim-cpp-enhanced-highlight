@@ -51,6 +51,10 @@ endif
 "  Source: aftersyntaxc.vim
 " -----------------------------------------------------------------------------
 
+
+syn match cType "\<\w*_t\>"
+syn match cType "\<[A-Z]\w*\>"
+
 " Common ANSI-standard functions
 syn keyword cAnsiFunction	MULU_ DIVU_ MODU_ MUL_ DIV_ MOD_
 syn keyword cAnsiFunction	main typeof
